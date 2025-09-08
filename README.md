@@ -2,11 +2,16 @@
 ### 哥斯拉webshell二次开发规避流量检测设备  
 
 二开详细教程在微信公众号：艾克sec  
-截止4.10 测了国内两安全厂商的态感，连接和执行命令无告警，目前效果未知  
+截止2024.4.10 测了国内两安全厂商的态感，连接和执行命令无告警，目前效果未知  
 最新版本增加了内存马注入，三种语言自定义免杀加密器，流量高度模拟混淆等功能，但目前由于特殊原因不能公开，推荐师傅们看公众号文章自行二开。  
-
+#### 1.2更新
+最近df将哥斯拉dll的特征加到amsi里了，很多师傅提到shell在却连接不上，更新一个版本，可绕过amsi正常连接  
+建议配合命令执行bypass插件食用 ，不然执行命令会被检测w3wp进程然后查到文件给查杀  
+（https://github.com/ekkoo-z/Gsl_ekp_bypassPlugin） 
+<img width="3379" height="1359" alt="image" src="https://github.com/user-attachments/assets/20dface2-0ca8-4e51-ac47-6c2fd8efe297" />
+server2022版本及以上自带插件用不了 不是bug而是df杀软的问题，由于自己已经不用哥斯拉了，这个问题懒的解决了，后续会开源一个新的webshell管理工具来解决这些问题  
 #### 1.1更新
-许多师傅提出市面上net webshell免杀工具较少，想隐匿流量却对默认生成的shell不会免杀，这里首先更新一下net的生成即免杀以及随机html（后续推出其他语言的免杀）  
+更新一下net的生成即免杀以及随机html
 使用方法：  
 生成webshell选择bypass1   
 <img width="640" alt="图片" src="https://github.com/kong030813/Z-Godzilla_ekp/assets/97926809/87b86418-ad9f-49f7-bc4c-00e8634654c4">  
