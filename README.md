@@ -8,8 +8,10 @@
 最近df将哥斯拉dll的特征加到amsi里了，很多师傅提到shell在却连接不上，更新一个版本，可绕过amsi正常连接  
 建议配合命令执行bypass插件食用 ，不然执行命令会被检测w3wp进程然后查到文件给查杀  
 https://github.com/ekkoo-z/Gsl_ekp_bypassPlugin  
-<img width="3379" height="1359" alt="image" src="https://github.com/user-attachments/assets/20dface2-0ca8-4e51-ac47-6c2fd8efe297" />
-server2022版本及以上自带插件用不了 不是bug而是df杀软的问题，由于自己已经不用哥斯拉了，这个问题懒的解决了，后续会开源一个新的webshell管理工具来解决这些问题  
+<img width="2998" height="1324" alt="image" src="https://github.com/user-attachments/assets/5e47af92-2fe3-4b68-bcea-e1aff2f60d5a" />  
+注：server2022版本及以上自带的所有插件都用不了 不是bug而是df杀软的问题  
+由于自己已经不用哥斯拉了，这个问题懒的解决了，后续会开源一个新的webshell管理工具来解决这些问题  
+
 #### 1.1更新
 更新一下net的生成即免杀以及随机html
 使用方法：  
